@@ -1,1 +1,42 @@
+# Week 3 Group Coding Exercise
+
+Group 3s submission for Computer Science 323 , Section 12,  Week 3
+
+# Our Information
+
+* Name: David Ulloa
+* Email: davidulloamontesinos@csu.fullerton.edu
+* Name: Emily Velasco
+* Name: Medrian Manuel Bacareza
+
+# How to Run
+
+1.) Put both automata.py and demo.py in same folder in location of your choosing. 
+2.) cd into that file from terminal
+3.) Run python3 demo.py
+
+Example: automata.py and demo.py are in file group_exercise_3 in path /Documents/group_exercise_3
+```
+cd Documents/group_exercise_3
+python3 demo.py
+
+```
+
+# Hardest Part of Group Exercise and Why?
+
+
+
+
+#Team + Proof
+
+
+
+#Files Included in Proof
+
+1.) automata.py
+2.) demo.py 
+3.) README.md
+4.) zoom_prood.png
+
+
 
