@@ -28,11 +28,13 @@ python3 demo.py
 
 
 
-#Team + Proof
+# Team + Proof
+
+![proof of zoom meeting](images/zoom_proof.png)
 
 
 
-#Files Included in Proof
+# Files Included in Proof
 
 1.) automata.py
 2.) demo.py 
