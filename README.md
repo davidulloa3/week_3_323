@@ -25,7 +25,11 @@ python3 demo.py
 
 # Hardest Part of Group Exercise and Why?
 
-The hardest part of the exercise was the debugging after testing.  We ran into a few "MISMATCH FOUND" errors and had to review our logic.  The fix ended up being quite simple.  We were able to fix it by including epsilon closures at each step and it resolved the issues.
+One of the hardest part of this exercise was the debugging after testing.  We ran into a few "MISMATCH FOUND" errors and had to review our logic.  The fix ended up being quite simple.  We were able to fix it by including epsilon closures at each step and it resolved the issues. Another issue we ran into was with code syntax and formatting. Since we are not really familiar with python, we found errors with our code tabbing that causes logic errors. Given that in c++, parentheses are what keeps code organized, the tabbing format through us off, but we persevered. The last error we ran into in terms of our source code was syntax. When we were transfering the code from the doc over to our file, we left a line of comments without the proper formatting which causes another compilation error.
+
+The other difficult part was understanding the outcomes of the program. We had to review the previous class slides and spend extra time understanding the contents of the code and what the outputs entailed. For example, we spent some time reviewing over the differences of subset construction and how the outputs demostrated how NFAs can be in multiple states at once called configurations. Another important concept was the idea of how each DFA state is also a subset of NFA states. Overall, this part was the most difficult part of the group coding assignment for us.
+
+
 
 # One Insight From the Trace?
 
