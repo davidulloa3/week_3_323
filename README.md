@@ -7,7 +7,9 @@ Group 3s submission for Computer Science 323 , Section 12,  Week 3
 * Name: David Ulloa
 * Email: davidulloamontesinos@csu.fullerton.edu
 * Name: Emily Velasco
+* Email: emilyvlsco@csu.fullerton.edu
 * Name: Medrian Manuel Bacareza
+* Email: medbac@csu.fullerton.edu
 
 # How to Run
 
@@ -19,7 +21,6 @@ Example: automata.py and demo.py are in file group_exercise_3 in path /Documents
 ```
 cd Documents/group_exercise_3
 python3 demo.py
-
 ```
 
 # Hardest Part of Group Exercise and Why?
