@@ -29,7 +29,7 @@ The hardest part of the exercise was the debugging after testing.  We ran into a
 
 # One Insight From the Trace?
 
-We did not need to specify how the NFA should react to certain symbols.  If it were DFA, there would only be a one state transition for each symbol in the tests. 
+In the trace for 'baab' shows the NFA stays in n0 through the first b, then it only branches when it hits the 'a' which starts the abb attempt.
 
 # Team + Proof
 
