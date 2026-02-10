@@ -29,7 +29,10 @@ The hardest part of the exercise was the debugging after testing.  We ran into a
 
 # One Insight From the Trace?
 
+We did not need to specify how the NFA should react to certain symbols.  If it were DFA, there would only be a one state transition for each symbol in the tests. 
+
 # Team + Proof
+
 
 ![proof of zoom meeting](images/zoom_proof.png)
 
