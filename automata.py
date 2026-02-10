@@ -1,7 +1,14 @@
+Executable Automata: DFA, NFA, epsilon-closure, and subset construction (NFA -> DFA).
+
+Implements the exact functions required by the Week 3 Group Coding Exercise.
+"""
+
+from collections import deque
+
 
 def run_dfa(transitions, start_state, accepting_states, s, alphabet):
-    """
-    Execute a DFA.
+    """Execute a DFA.
+
     transitions[state][symbol] = next_state
 
     Returns True if accepted, else False.
@@ -22,10 +29,12 @@ def run_dfa(transitions, start_state, accepting_states, s, alphabet):
     # 4) Accept if final state is accepting
     return state in accepting_states
 
+
 def epsilon_closure(states, eps):
-    """
+    """Return epsilon-closure of a set of states.
+
     states: a set of states
-    eps: dictionary mapping state -> set of epsilon-next-states
+    eps: dict mapping state -> set of epsilon-next-states
 
     Return all states reachable from 'states' using ONLY epsilon moves.
     """
@@ -41,12 +50,10 @@ def epsilon_closure(states, eps):
 
     return closure
 
-PART C — NFA Simulator (with TRACE)
-Goal
 
 def run_nfa(nfa, eps, start_states, accepting_states, s, alphabet):
-    """
-    Execute an NFA.
+    """Execute an NFA (with trace).
+
     nfa[state][symbol] = set(next_states)
     eps[state] = set(epsilon_next_states)
 
@@ -79,29 +86,11 @@ def run_nfa(nfa, eps, start_states, accepting_states, s, alphabet):
     # 4) Accept if ANY active state is accepting
     accepted = any(st in accepting_states for st in active)
     return (accepted, trace)
-Step C2 — What you MUST print
-They must print the trace like:
-start -> […]
-after ‘a’ -> […]
-after ‘b’ -> […]
-This is required.
 
-PART D — Subset Construction (NFA → DFA)
-
-Goal
-
-Build a DFA whose states are sets of NFA states.
-
-Key idea
-
-Each DFA state = a frozenset of NFA states (because sets are not hashable).
-
-
-from collections import deque
 
 def nfa_to_dfa(nfa, eps, start_states, accepting_states, alphabet):
-    """
-    Convert NFA to DFA using subset construction.
+    """Convert NFA to DFA using subset construction.
+
     Returns (dfa_transitions, dfa_start, dfa_accepting)
 
     dfa_state is a frozenset of NFA states.
