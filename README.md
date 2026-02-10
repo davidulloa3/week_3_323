@@ -27,6 +27,7 @@ python3 demo.py
 
 The hardest part of the exercise was the debugging after testing.  We ran into a few "MISMATCH FOUND" errors and had to review our logic.  The fix ended up being quite simple.  We were able to fix it by including epsilon closures at each step and it resolved the issues.
 
+# One Insight From the Trace?
 
 # Team + Proof
 
