@@ -37,7 +37,9 @@ python3 demo.py
 # Files Included in Proof
 
 1.) automata.py
+
 2.) demo.py 
+
 3.) README.md
 4.) zoom_prood.png
 
