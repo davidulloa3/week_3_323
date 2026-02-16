@@ -75,23 +75,6 @@ def run_nfa(nfa, eps, start_states, accepting_states, s, alphabet):
     # 4) Accept if ANY active state is accepting
     accepted = any(st in accepting_states for st in active)
     return (accepted, trace)
-# Step C2 — What you MUST print
-# They must print the trace like:
-# start -> […]
-# after ‘a’ -> […]
-# after ‘b’ -> […]
-# This is required.
-
-# PART D — Subset Construction (NFA → DFA)
-
-# Goal
-
-# Build a DFA whose states are sets of NFA states.
-
-# Key idea
-
-# Each DFA state = a frozenset of NFA states (because sets are not hashable).
-
 
 from collections import deque
 
