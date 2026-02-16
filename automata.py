@@ -40,9 +40,6 @@ def epsilon_closure(states, eps):
 
     return closure
 
-# PART C — NFA Simulator (with TRACE)
-# Goal
-
 def run_nfa(nfa, eps, start_states, accepting_states, s, alphabet):
     """
     Execute an NFA.
